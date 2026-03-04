@@ -1,0 +1,80 @@
+# Node / Next.js
+node_modules/
+.next/
+.out/
+dist/
+build/
+.next/cache/
+.next/standalone/
+.next/static/
+
+# TypeScript / build artifacts
+*.tsbuildinfo
+.next/types
+next-env.d.ts
+
+# Frontend lockfiles
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+.venv/
+venv/
+venv*/
+ENV/
+env.bak/
+venv.bak/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Virtualenv used in Docker builder
+/opt/venv/
+
+# Environment / secrets
+.env
+.env.* 
+*.pem
+*.key
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+*.dockerignore
+
+# Docker volumes / runtime data (local dev)
+pg_data/
+chroma_data/
+ollama_data/
+
+# Database
+*.sqlite3
+*.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Misc
+coverage/
+coverage.json
+coverage.*
+.cache/
+*.log
